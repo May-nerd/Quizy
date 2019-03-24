@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Quizy Planet</title>
+        
+    </head>
+    <style>
+        * {
+            font-size: 50px;
+        }
+        div {
+            background-color: #ECECEC;
+            text-align: center;
+        }
+        #header {
+            height: 10%;
+        }
+        #question-box {
+            height: 30%;
+        }
+        #choices-box {
+            height: 60%;
+        }
+        button { 
+            display: block;
+            width: 100%;
+            height: 25%;
+            text-align: center;
+        }
+        button { 
+            display: block;
+            width: 100%;
+            height: 25%;
+            text-align: center;
+        }
+        #button1{
+            background-color: #F3D250
+        }
+        #button2{
+            background-color: #90ccf4
+        }
+        #button3{
+            background-color: #F78888
+        }
+        #button4{
+            background-color:aquamarine
+        }
+    </style>
+    <body>
+        <div id = 'header'>Score: <span id = 'score'>0</span> </div>
+        <div id = 'question-box'>Question is this</div>
+        <div id="choices-box">
+            <button id="button1" onclick="clickA(1)">Choice 1</button>
+            <button id="button2" onclick="clickA(2)">Choice 2</button>
+            <button id="button3" onclick="clickA(3)">Choice 3</button>
+            <button id="button4" onclick="clickA(4)">Choice 4</button>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
